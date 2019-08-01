@@ -1,0 +1,1 @@
+docker run --name=rundeck -d -v ~/docker/RunDeck/data:/home/rundeck/server/data -v ~/docker/RunDeck/config:/home/rundeck/server/config/ -p 4440:4440 rorymurdock/wso-uem-rundeck:latest
